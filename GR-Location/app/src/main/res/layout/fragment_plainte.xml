@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".plainte">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Plainte"
+                android:layout_width="match_parent"
+                android:id="@+id/textView2"
+                android:layout_height="71dp"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/Sujet"
+                android:textColorLink="?attr/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:hint="Sujet"
+                android:background="@drawable/edtview" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/contenu"
+                android:textColorLink="?attr/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:hint="Contenu"
+                android:elevation="8dp"
+                android:layout_height="80dp"
+                android:background="@drawable/edtview" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/email"
+                android:hint="Email"
+                android:textColorLink="?attr/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:background="@drawable/edtview" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView19" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/nom"
+                android:hint="Nom Complet"
+                android:textColorLink="?attr/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textColorHighlight="@color/colorPrimary"
+                android:layout_weight="0.73"
+                android:background="@drawable/edtview" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="74dp"
+                style="@style/Animation.Design.BottomSheetDialog"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="83dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3"
+                    android:elevation="6dp"
+                    android:layout_weight="0.09" />
+
+                <Button
+                    android:text="envoyer"
+                    android:layout_width="158dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/envoyer"
+                    android:fontFamily="serif"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHighlight="@color/cast_expanded_controller_ad_container_white_stripe_color"
+                    android:textStyle="normal|bold"
+                    android:textSize="18sp"
+                    style="@style/Widget.AppCompat.Button.Small"
+                    android:textAlignment="center"
+                    android:layout_weight="0.22" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

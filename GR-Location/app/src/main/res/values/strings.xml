@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GR-Location</string>
+
+    <string name="profile">Profile </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_trajet">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <array name="type">
+        <item>message</item>
+        <item>reclamation</item>
+    </array>
+</resources>

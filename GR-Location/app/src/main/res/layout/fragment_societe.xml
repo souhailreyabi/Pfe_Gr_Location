@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.souhail.gl_location.societe">
+ <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="160dp"
+            android:weightSum="1">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/logos"
+
+                android:layout_width="match_parent"
+                app:civ_border_width="5dp"
+                app:civ_border_color="#FF000000"
+                android:layout_weight="0.90"
+                android:layout_height="90dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:layout_weight="0.48" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:id="@+id/nom"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:fontFamily="sans-serif"
+                android:textSize="16sp"
+                android:textStyle="normal|bold"
+                android:background="@drawable/rounded_corner"
+                android:layout_height="48dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_weight="0.48" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:id="@+id/adress"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:fontFamily="sans-serif"
+                android:textSize="16sp"
+                android:textStyle="normal|bold"
+                android:layout_height="48dp" android:background="@drawable/rounded_corner"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:layout_weight="0.48" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:id="@+id/emails"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:fontFamily="sans-serif"
+                android:textSize="16sp"
+                android:textStyle="normal|bold" android:background="@drawable/rounded_corner"
+                android:layout_height="48dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_weight="0.48" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/tel"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:fontFamily="sans-serif"
+                android:textSize="16sp"
+                android:textStyle="normal|bold"
+                android:layout_height="48dp" android:background="@drawable/rounded_corner"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:layout_weight="0.48" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:id="@+id/fix"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:fontFamily="sans-serif"
+                android:textSize="16sp"
+                android:textStyle="normal|bold"
+                android:layout_height="48dp" android:background="@drawable/rounded_corner"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:layout_weight="0.48" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:id="@+id/ratingBar"
+                android:elevation="10dp"
+                android:layout_gravity="center"
+
+                android:clickable="false"
+                android:layout_height="68dp" />
+
+            <Button
+                android:text="envoyer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/avisenvoyer"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/accent"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:fontFamily="serif"
+                android:layout_weight="0.48" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

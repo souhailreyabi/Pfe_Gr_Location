@@ -1,0 +1,23 @@
+# --table-start--
+dataClass=com.estm.GR_Location.data.LocationLog
+tableName=location_log
+# --table-fields-start--
+# --field-start--
+fieldName=locid
+columnName=loc_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=lon
+columnName=lon
+# --field-end--
+# --field-start--
+fieldName=lat
+columnName=lat
+# --field-end--
+# --field-start--
+fieldName=datelog
+columnName=date_log
+# --table-fields-end--
+# --table-end--
+#################################

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Acceuil" />
+
+
+        <!-- Des infos sur le chauffeur-->
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_art_track_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_assistant"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Assistant " />
+        <item
+            android:id="@+id/nav_societe"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Societe" />
+        <item
+            android:id="@+id/nav_contactReclamation"
+            android:icon="@drawable/ic_contact_mail_black_24dp"
+            android:title="Contact / réclamation" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Log out" />
+    </group>
+<!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+-->
+</menu>
